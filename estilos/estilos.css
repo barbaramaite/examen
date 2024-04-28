@@ -1,0 +1,225 @@
+/* 
+    Programador:Maite Aguirre
+    revicion:no
+    fecha:28/04/2024
+    detalle: Estos son los estilos css de mi página web
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/*Estilos del boby*/
+body {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+/*Estilos del header*/
+header {
+    width: 100%;
+    background: url('../imagenes/puente.jpg') #80bbff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+header .contenedor {
+    position: relative;
+    height: 500px;
+
+}
+/*Estilos menú*/
+header .menu {
+    width: 100%;
+    text-align: right;
+}
+
+header .menu a {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .menu a:hover {
+    color: rgb(11, 26, 139);
+    text-decoration: underline;
+}
+/*Estilos del texto en el header*/
+header .texto {
+    width: 30%;
+    color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    text-align: center;
+    margin-top: -42px;
+    border: 1px solid blanchedalmond;
+}
+
+header .texto h1 {
+    font-size: 35px;
+    font-weight: 200;
+}
+
+header .texto h2 {
+    font-size: 15px;
+    font-weight: 200;
+}
+/*Estilos dentro del main*/
+.main .acerca-de .foto {
+    width: 10%;
+    margin-top: -55px;
+    height: 18%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 420px;
+    position: absolute;
+    box-shadow: -1px -5px 20px rgba(255, 255, 255, 0.664);
+
+}
+
+.main .acerca-de .foto img {
+    width: 100%;
+    vertical-align: top;
+
+}
+.main .acerca-de .titulo {
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-weight: 200;
+    margin: 40px 40px;
+}
+
+.main .acerca-de .texto {
+    text-align: center;
+    margin: 100px 100px;
+    line-height: 2;
+}
+
+.main .acerca-de .texto .bold {
+    color: #9bc2f3;
+}
+/*Estilos de los trabajos*/
+.trabajos {
+    background: rgb(219, 225, 231);
+}
+
+.trabajos .titulo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 200;
+    margin: 40px 40px;
+}
+
+.trabajos {
+    text-align: center;
+
+}
+
+.trabajos .thumb img {
+    width: 100%; 
+    height: auto;
+    float: left;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.contenedor-trabajos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+
+.trabajo {
+    text-align: center;
+}
+
+.categoria {
+    color: #000000;
+}
+
+.nombre {
+    color: #0e5fbd;
+    margin-top: 20px;
+}
+/*Estilos del contacto*/
+.contacto .titulo {
+    text-align: center;
+    color: #80bbff;
+    font-size: 35px;
+    font-weight: 200;
+    margin: 40px 40px;
+    
+}
+
+.contacto .contenedor{
+    width:100%;
+    }
+.contacto .formulario input{
+    width: 48%;
+    padding: 20px ;
+    margin: 10px;
+    float: left;
+    border-radius: 5px;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 20px ;
+    font-size: 15px;
+    font-weight: 20;
+}
+
+.boton {
+    background-color: #80bbff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+/*Estilos de los íconos de las redes sociales*/
+.redes-sociales {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 20); 
+    padding: 100px 0; 
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: white;
+    margin: 0 60px; 
+}
+
+.redes-sociales i {
+    font-size: 35px; 
+}

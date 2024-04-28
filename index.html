@@ -1,0 +1,170 @@
+<!--
+    Programador:Maite Aguirre
+    revicion:no
+    fecha:28/04/2024
+    detalle: Este el index de mi página web 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=0, maximun-scale=1.0, minimun-scale=1.0, initial-scale=1.0">
+    <title>Exámen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
+
+</head>
+
+<body>
+    <header>
+        <!--Inicio header-->
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#">Acerca de</a>
+                <a href="#">Trabajos</a>
+                <a href="#">Contacto</a>
+            </nav>
+
+            <div class="contenedor-texto">
+                <div class="texto">
+                    <h1 class="nombre">Maite Aguirre</h1>
+                    <h2 class="carrera">Estudiante de Desarrollo de Software</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+<!--Inicio clase main-->
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="imagenes/mia.jpg" width="115" height="115" alt="Elvis Pachacama">
+                </div>
+                <div class="texto">
+                    <h3 class="titulo">Acerca de</h3>
+                    <p> <span class="bold">Barbara Maite Aguirre</span> es una estudiante dedicada que actualmente cursa el segundo semestre en el  <span
+                            class="bold">Instituto Tecnológico Quito (ITQ).
+                        </span>
+                        , donde se especializa en la carrera de Desarrollo de Software. Destaca por su compromiso académico y su participación activa en proyectos grupales. Entre sus logros, destaca la creación de una variedad de proyectos, incluyendo una calculadora en PSeInt y Java, el desarrollo de máquinas virtuales, la creación de bases de datos y el diseño de páginas web. 
+
+                        La constante dedicación  de <span class="bold">Maite</span> e interés por seguir aprendiendo en el campo de la tecnología reflejan su pasión por el desarrollo de software y su determinación para alcanzar el éxito en su carrera.
+                        </p>
+                </div>
+            </div>
+        </section>
+        <section class="trabajos">
+            <div class="contenedor">
+                <h3 class="titulo">Trabajos</h3>
+                <div class="contenedor-trabajos">
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/snake.webp" alt="Snake">
+                        </div>
+                        <div class="decription">
+                            <p class="nombre"> Juego Snake</p>
+                            <p class="categoría">HTML - CSS - JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/cronometro.jpg" alt="cronómetro">
+                        </div>
+                        <div class="description">
+                            <p class="nombre">Cronómetro</p>
+                            <p class="categoría">HTML - CSS - JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/cifrador.png" alt="Cifrador Cesar">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Cifrador César</p>
+                            <p class="categoría">HTML - CSS - JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/calculadorainteractiva.png" alt="Calculadora Interactiva">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Calculadora Interactiva</p>
+                            <p class="categoria">HTML - CSS - JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/listadetareas.png" alt="Lista de tareas">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Lista de tareas</p>
+                            <p class="categoria">HTML - CSS - JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/ahorcado.png" alt="El ahorcado">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">El ahorcado</p>
+                            <p class="categoria">HTML - CSS - JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/generador.png" alt="Generador de paleta de colores">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Generador de Paleta de Colores</p>
+                            <p class="categoria">HTML - CSS - JS</p>
+                        </div>
+                    </div>
+                    <div class="trabajo">
+                        <div class="thumb">
+                            <img src="imagenes/reproductor.jpg" alt="Reproductor de audio">
+                        </div>
+                        <div class="descripcion">
+                            <p class="nombre">Reproductor de Audio HTML5 con Lista de Reproducción</p>
+                            <p class="categoria">HTML</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+<!--Inicio del footer-->
+    <footer>
+        <section class="contacto">
+            <div class="contenedor">
+                <h3 class="titulo">Contacto</h3>
+                <form class="formulario" action="">
+                    <input type=" text" placeholder="Nombre" name="nombre" required>
+                    <input type=" email" placeholder="Correo" name="correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                    <input class="boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <div class="redes-sociales">
+            <a href="https://twitter.com/?lang=es">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61552227482739">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UC1qrS1Sz6p76llE7GThPzxg">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://github.com/barbaramaite">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/maitos.00?igsh=MTZ4Ym8xb3hwdGFkYw%3D%3D&utm_source=qr">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>        
+    </footer>
+</body>
+
+</html>

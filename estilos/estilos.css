@@ -61,13 +61,13 @@ header .menu a {
 }
 
 header .menu a:hover {
-    color: rgb(11, 26, 139);
+    color: rgb(3, 16, 82);
     text-decoration: underline;
 }
-/*Estilos del texto en el header*/
+
 header .texto {
     width: 30%;
-    color: #ffff;
+    color: #ffffff;
     position: absolute;
     top: 50%;
     left: 33%;
@@ -79,6 +79,7 @@ header .texto {
 header .texto h1 {
     font-size: 35px;
     font-weight: 200;
+    color: #ffffff;
 }
 
 header .texto h2 {
@@ -196,13 +197,13 @@ textarea {
 }
 
 .boton {
-    background-color: #80bbff;
+    background-color: #a1c0f8;
     color: white;
-    border: none;
+    width: 25% !important;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
+    margin-left: 380px !important;
 }
 /*Estilos de los íconos de las redes sociales*/
 .redes-sociales {
